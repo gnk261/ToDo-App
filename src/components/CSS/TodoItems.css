@@ -1,0 +1,31 @@
+.todoitems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.todoitems-container {
+  display: flex;
+}
+
+.todoitems-text {
+  display: flex;
+  background-color: #8d9096;
+  color: white;
+  width: 500px;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: large;
+  align-items: center;
+  justify-content: start;
+  margin-left: 5px;
+}
+
+.todoitems-cross-icon {
+  cursor: pointer;
+}
+
+.line-through {
+  text-decoration: line-through solid orangered;
+}
